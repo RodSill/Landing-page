@@ -1,0 +1,65 @@
+@charset "UTF-8" ;
+
+@media screen and (max-width: 770px){
+    header{
+        flex-direction: column;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 3px;
+    }
+
+    h2{
+        
+        font-size: 38px;
+    }
+
+    p{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    form{
+        margin: auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+    
+    article{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    img{
+        width: 55vw;
+        height: auto;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    input{
+        width: 300px;
+    }
+}
